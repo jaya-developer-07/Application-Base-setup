@@ -12,7 +12,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn pretty"
+      "pre-push": "yarn lint && yarn pretty"
     }
   },
   "dependencies": {
