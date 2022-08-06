@@ -13,7 +13,7 @@ const StyledItem = styled(Item)`
   }
   border-radius: 8px;
   margin-bottom: 0px !important;
-`;
+`
 const AntdInputStyle = styled(AntdInput)`
   ::placeholder {
     font-size: 16px;
