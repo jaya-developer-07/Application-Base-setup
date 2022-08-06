@@ -1,0 +1,30 @@
+{
+  "plugins": ["babel"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "no-console": ["off"],
+    "react/prop-types": ["off"],
+    "no-unused-vars": ["error", { "ignoreRestSiblings": true }]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {
+    "Promise": true,
+    "verbose": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

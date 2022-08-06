@@ -1,0 +1,29 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties"],
+
+    ["@babel/plugin-transform-react-jsx"],
+
+    [
+      "@emotion",
+      {
+        "sourceMap": true
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["./src"]
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+  ]
+}
