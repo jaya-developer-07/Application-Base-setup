@@ -25,7 +25,3 @@ yarn.lock
 
 .mp4
 build
-
-# Code Coverage
-coverage/**
-.nyc_output/
