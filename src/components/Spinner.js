@@ -1,4 +1,4 @@
-import styled, { keyframes, css } from "styled-components"
+import styled, { keyframes, css } from 'styled-components'
 
 const spin = keyframes`
   0% {
@@ -15,17 +15,17 @@ const Spinner = styled.div`
   animation: ${spin} 750ms linear infinite;
   border-width: 2px;
   pointer-events: none;
-  width: ${(props) => props.size + "px"};
-  height: ${(props) => props.size + "px"};
-  ${(props) =>
+  width: ${props => props.size + 'px'};
+  height: ${props => props.size + 'px'};
+  ${props =>
     props.inverted
       ? css([], {
-          borderColor: "#dfdfdd",
-          borderTopColor: "#fff",
+          borderColor: '#dfdfdd',
+          borderTopColor: '#fff',
         })
       : css([], {
-          borderColor: "#a9a9a9",
-          borderTopColor: "#000",
+          borderColor: '#a9a9a9',
+          borderTopColor: '#000',
         })}
 `
 

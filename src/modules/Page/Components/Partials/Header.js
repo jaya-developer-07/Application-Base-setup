@@ -1,11 +1,11 @@
 /* eslint-disable */
-import React from "react";
-import Flex from "components/Flex";
-import styled from "styled-components";
-import Avatar from "components/Avatar";
-import PluginLiveLogo from "components/icons/PluginLiveLogo";
+import React from 'react'
+import Flex from 'components/Flex'
+import styled from 'styled-components'
+import Avatar from 'components/Avatar'
+import PluginLiveLogo from 'components/icons/PluginLiveLogo'
 
-const BREAKPOINT = "999px";
+const BREAKPOINT = '999px'
 
 const StyledFlex = styled(Flex)`
   position: static;
@@ -20,20 +20,20 @@ const StyledFlex = styled(Flex)`
     background: #ffffff;
     margin: 0px !important;
   }
-`;
+`
 
 const IconWrapper = styled(Flex)`
   background-color: white;
   min-width: 200px;
   max-width: 200px;
   justify-content: center;
-`;
+`
 
 const Divider = styled.div`
   border-left: 1px solid #e6e7ea;
   margin-right: 25px;
   height: 55px;
-`;
+`
 const Header = () => {
   return (
     <StyledFlex spaceBetween centerVertically isDisplay={true}>
@@ -49,6 +49,6 @@ const Header = () => {
         <Avatar background size={40} IconName="A" font={18} />
       </Flex>
     </StyledFlex>
-  );
-};
-export default Header;
+  )
+}
+export default Header

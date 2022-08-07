@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import Flex from "components/Flex"
+import styled from 'styled-components'
+import Flex from 'components/Flex'
 
 const Sidebar = styled(Flex)`
   min-width: 200px;
@@ -10,7 +10,7 @@ const Sidebar = styled(Flex)`
   transition: 0.4s ease;
   background: #ffffff;
   ::before {
-    content: "";
+    content: '';
     position: fixed;
     background: rgba(0, 0, 0, 0.45);
     top: 0;
@@ -19,7 +19,7 @@ const Sidebar = styled(Flex)`
     bottom: 0;
     z-index: -1;
     opacity: 0;
-    display: "none";
+    display: 'none';
     transition: 0.4s ease;
   }
 `

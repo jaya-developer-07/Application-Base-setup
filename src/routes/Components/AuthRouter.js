@@ -1,7 +1,7 @@
-import React, { Fragment } from "react"
-import AuthPage from "routes/Components/AuthPage"
-import { Navigate } from "react-router-dom"
-import { Routes, Route } from "react-router-dom"
+import React, { Fragment } from 'react'
+import AuthPage from 'routes/Components/AuthPage'
+import { Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 const AuthRouter = ({ isAuthenticated }) => {
   return (

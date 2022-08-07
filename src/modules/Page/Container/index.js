@@ -1,6 +1,6 @@
-import { connect } from "react-redux"
+import { connect } from 'react-redux'
 
-import Page from "modules/Page/Components/index"
+import Page from 'modules/Page/Components/index'
 
 const mapStateToProps = () => ({})
 

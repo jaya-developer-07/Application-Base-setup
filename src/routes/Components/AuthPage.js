@@ -1,9 +1,9 @@
-import React, { useEffect } from "react"
-import { Route, Routes, useNavigate } from "react-router-dom"
-import Page from "modules/Page/Container/index"
-import { authenticated } from "routes/config/user"
-import Flex from "components/Flex"
-import styled from "styled-components"
+import React, { useEffect } from 'react'
+import { Route, Routes, useNavigate } from 'react-router-dom'
+import Page from 'modules/Page/Container/index'
+import { authenticated } from 'routes/config/user'
+import Flex from 'components/Flex'
+import styled from 'styled-components'
 
 const PageFlex = styled(Flex)`
   overflow: hidden;
@@ -12,7 +12,7 @@ const AuthPage = ({ isAuthenticated }) => {
   const navigate = useNavigate()
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate("/user/signin")
+      navigate('/user/signin')
     }
   }, [isAuthenticated])
 

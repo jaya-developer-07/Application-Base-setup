@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from "react";
-import { Slider as AntdSlider } from "antd";
-import styled from "styled-components";
-import Flex from "components/Flex";
+import React from 'react'
+import { Slider as AntdSlider } from 'antd'
+import styled from 'styled-components'
+import Flex from 'components/Flex'
 
 const SliderStyle = styled(AntdSlider)`
   .ant-slider-rail {
@@ -11,7 +11,7 @@ const SliderStyle = styled(AntdSlider)`
   .ant-slider-track {
     height: 2px;
   }
-`;
+`
 
 const Slider = ({
   value,
@@ -36,9 +36,9 @@ const Slider = ({
       />
       <Flex spaceBetween>
         <div>{min} </div>
-        <div>{max + " " + label}</div>
+        <div>{max + ' ' + label}</div>
       </Flex>
     </Flex>
-  );
-};
-export default Slider;
+  )
+}
+export default Slider

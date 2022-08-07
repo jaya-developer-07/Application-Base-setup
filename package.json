@@ -8,11 +8,12 @@
     "dev": "NODE_ENV=development webpack serve --config ./config/webpack.dev.js",
     "build": "NODE_ENV=production webpack --config ./config/webpack.prod.js",
     "pretty": "prettier --check 'src/**/*.js'",
-    "lint": "eslint --ext .js ./src"
+    "lint": "eslint --ext .js ./src",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn pretty"
+      "pre-commit": "yarn lint && yarn pretty"
     }
   },
   "dependencies": {
@@ -47,7 +48,7 @@
     "file-loader": "^6.2.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^5.5.0",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "less-loader": "^11.0.0",
     "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.3.3",

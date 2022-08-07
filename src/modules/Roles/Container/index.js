@@ -1,5 +1,5 @@
-import { connect } from "react-redux"
-import Roles from "modules/Roles/index"
+import { connect } from 'react-redux'
+import Roles from 'modules/Roles/index'
 
 const mapStateToProps = () => ({})
 

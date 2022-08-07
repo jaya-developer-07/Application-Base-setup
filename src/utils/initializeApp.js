@@ -1,7 +1,7 @@
-import request from "utils/request"
+import request from 'utils/request'
 
-const initializeApp = (token) => {
-  request.defaults.headers.common["Authorization"] = token
+const initializeApp = token => {
+  request.defaults.headers.common['Authorization'] = token
 }
 
 export default initializeApp

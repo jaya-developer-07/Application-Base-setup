@@ -1,7 +1,7 @@
-import React from "react"
-import UserRouter from "routes/Components/UserRouter"
-import { Navigate } from "react-router-dom"
-import { Routes, Route } from "react-router"
+import React from 'react'
+import UserRouter from 'routes/Components/UserRouter'
+import { Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router'
 
 const Routers = ({ token }) => {
   const isAuthenticated = Boolean(token)

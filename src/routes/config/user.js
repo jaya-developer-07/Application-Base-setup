@@ -1,26 +1,26 @@
-import PageNotFound from "routes/Components/PageNotFound"
-import UserSignin from "modules/Auth/Container/index"
-import Students from "modules/Students/Container/index"
-import Roles from "modules/Roles/Container/index"
+import PageNotFound from 'routes/Components/PageNotFound'
+import UserSignin from 'modules/Auth/Container/index'
+import Students from 'modules/Students/Container/index'
+import Roles from 'modules/Roles/Container/index'
 
 export const anonymous = [
   {
-    routePath: "/signin",
+    routePath: '/signin',
     Component: UserSignin,
   },
 ]
 
 export const authenticated = [
   {
-    routePath: "/students",
+    routePath: '/students',
     Component: Students,
   },
   {
-    routePath: "/roles",
+    routePath: '/roles',
     Component: Roles,
   },
   {
-    routePath: "*",
+    routePath: '*',
     Component: PageNotFound,
   },
 ]

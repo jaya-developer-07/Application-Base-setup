@@ -1,4 +1,4 @@
-import { SIGN_IN_SUCCESS } from "modules/Auth/actions"
+import { SIGN_IN_SUCCESS } from 'modules/Auth/actions'
 
 const initialState = {
   token: null,

@@ -1,6 +1,6 @@
-import { connect } from "react-redux"
+import { connect } from 'react-redux'
 
-import Nav from "modules/Nav/index"
+import Nav from 'modules/Nav/index'
 
 const mapStateToProps = () => ({})
 

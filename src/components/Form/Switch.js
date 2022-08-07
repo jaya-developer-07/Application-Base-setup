@@ -1,7 +1,7 @@
-import React from "react"
-import { Switch as AntdSwitch, Form } from "antd"
-import styled from "styled-components"
-import Flex from "components/Flex"
+import React from 'react'
+import { Switch as AntdSwitch, Form } from 'antd'
+import styled from 'styled-components'
+import Flex from 'components/Flex'
 
 const FlexWrapper = styled(Flex)``
 

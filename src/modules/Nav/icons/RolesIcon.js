@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-const RolesIcon = ({ color = "#999FAC" }) => (
+const RolesIcon = ({ color = '#999FAC' }) => (
   <svg
     width="22"
     height="14"

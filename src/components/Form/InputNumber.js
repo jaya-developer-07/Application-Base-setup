@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import React, { Fragment } from "react"
-import Label from "components/Form/Label"
-import styled from "styled-components"
-import { COLORS } from "theme"
-import { InputNumber as AntdInputNumber, Form } from "antd"
+import React, { Fragment } from 'react'
+import Label from 'components/Form/Label'
+import styled from 'styled-components'
+import { COLORS } from 'theme'
+import { InputNumber as AntdInputNumber, Form } from 'antd'
 
 const { Item } = Form
 
@@ -89,8 +89,8 @@ const InputNumber = ({
   placeholder,
   required,
   disabled,
-  width = "552px",
-  height = "40px",
+  width = '552px',
+  height = '40px',
   marginRight,
   labelStyle,
   defaultValue,

@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-const StudentsIcon = ({ color = "#999FAC" }) => (
+const StudentsIcon = ({ color = '#999FAC' }) => (
   <svg
     width="18"
     height="21"

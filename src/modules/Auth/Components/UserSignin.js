@@ -1,8 +1,8 @@
-import React, { useEffect } from "react"
-import styled from "styled-components"
-import Flex from "components/Flex"
-import SignInForm from "./SignInForm"
-import { useNavigate } from "react-router-dom"
+import React, { useEffect } from 'react'
+import styled from 'styled-components'
+import Flex from 'components/Flex'
+import SignInForm from './SignInForm'
+import { useNavigate } from 'react-router-dom'
 
 export const Wrapper = styled(Flex)`
   height: 100vh;
@@ -23,13 +23,13 @@ const SignInCard = styled.div`
 const UserSignin = ({ token, SignIn }) => {
   const navigate = useNavigate()
 
-  const handleSignIn = (data) => {
+  const handleSignIn = data => {
     SignIn(data)
   }
 
   useEffect(() => {
     if (token) {
-      navigate("/user/students")
+      navigate('/user/students')
     }
   }, [token])
 

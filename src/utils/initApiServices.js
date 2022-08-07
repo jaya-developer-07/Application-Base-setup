@@ -1,26 +1,26 @@
-import request from "utils/request"
+import request from 'utils/request'
 export let ReduxStore = {}
 
-const initApiServices = (store) => {
+const initApiServices = store => {
   ReduxStore = store
-  console.log(store, "store")
+  console.log(store, 'store')
   try {
     request.interceptors.response.use(
-      (response) => {
+      response => {
         return response
       },
-      (error) => {
-        if (error?.response?.statusText === "Unauthorized") {
+      error => {
+        if (error?.response?.statusText === 'Unauthorized') {
           localStorage.clear()
           location.reload()
-          return new Promise(() => { })
+          return new Promise(() => {})
         } else {
           return Promise.reject(error)
         }
       }
     )
   } catch (e) {
-    console.error("Error occurred while logout : in InitApiService", e)
+    console.error('Error occurred while logout : in InitApiService', e)
   }
 }
 

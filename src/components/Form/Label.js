@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const Label = styled.span`
   position: relative;
@@ -7,8 +7,8 @@ const Label = styled.span`
   font-size: 12px;
   text-transform: capitalize;
   letter-spacing: 0.01em;
-  ${(props) => props.labelStyle || ""}
-  ${(props) =>
+  ${props => props.labelStyle || ''}
+  ${props =>
     props.required &&
     `&::after {
       content: '';

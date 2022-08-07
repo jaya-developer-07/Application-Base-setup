@@ -1,7 +1,7 @@
-import React, { Fragment } from "react"
-import AuthRouter from "./AuthRouter"
-import { anonymous } from "routes/config/user"
-import { Routes, Route } from "react-router-dom"
+import React, { Fragment } from 'react'
+import AuthRouter from './AuthRouter'
+import { anonymous } from 'routes/config/user'
+import { Routes, Route } from 'react-router-dom'
 
 const UserRouter = ({ isAuthenticated }) => {
   return (

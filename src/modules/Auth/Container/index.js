@@ -1,10 +1,10 @@
-import { connect } from "react-redux"
-import { SignIn } from "modules/Auth/actions"
+import { connect } from 'react-redux'
+import { SignIn } from 'modules/Auth/actions'
 
-import UserSignin from "modules/Auth/Components/UserSignin"
-import selector from "modules/Auth/selectors"
+import UserSignin from 'modules/Auth/Components/UserSignin'
+import selector from 'modules/Auth/selectors'
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   token: selector.getToken(state),
 })
 

@@ -5,7 +5,7 @@ import Footer from './partials/Footer'
 
 const StyledDrawer = styled(AntdDrawer)`
   .ant-drawer-body {
-   padding:30px;
+    padding: 30px;
   }
   .ant-drawer-wrapper-body {
     height: 92%;

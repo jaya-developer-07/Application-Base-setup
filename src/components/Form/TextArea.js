@@ -1,7 +1,7 @@
-import React from "react"
-import { Input, Form } from "antd"
-import Label from "components/Form/Label"
-import styled from "styled-components"
+import React from 'react'
+import { Input, Form } from 'antd'
+import Label from 'components/Form/Label'
+import styled from 'styled-components'
 
 const { TextArea } = Input
 
@@ -21,7 +21,7 @@ const StyledItem = styled(Form.Item)`
 
 const TextAreas = ({
   name,
-  type = "text",
+  type = 'text',
   placeholder,
   label,
   rules,
